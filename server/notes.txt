@@ -1,0 +1,9 @@
+to install package.json: npm init -y
+npm i -D ts-node typescript @types/node
+to install tsconfig.json: npx tsc --init
+
+prisma generate: npx prisma generate
+prisma migrate: npx prisma migrate dev --name init
+prisma seed: npm run seed
+prisma reset: npx prisma migrate reset
+
